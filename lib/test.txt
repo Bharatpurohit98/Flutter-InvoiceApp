@@ -1,0 +1,21 @@
+Column(children: <Widget>[
+      //   Row(//Row2
+      //   children: [
+      //     Container(
+      //       padding: EdgeInsets.all(5),
+            
+      //     )
+      //   ],),
+         Row(//Row2
+           children: [Container(
+          padding: EdgeInsets.all(5),
+          child: TextField(
+          decoration: const InputDecoration(
+          border: OutlineInputBorder(), 
+          hintText: 'type'
+           
+        ),
+      ),
+        )]
+          ),
+      ]));
